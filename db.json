@@ -1,0 +1,32 @@
+{
+  "ordenes": [
+    {
+      "id": "1",
+      "subtotal": 10.00,
+      "total": 11.30,
+      "impuesto": 1.30
+    }
+  ],
+  "detalles": [
+    {
+      "id": "1",
+      "ordenesId": 1,
+      "producto": 10001,
+      "nombre": "Coca-Cola",
+      "cantidad": 2,
+      "precio": 1.25,
+      "impuesto": 0.325,
+      "total": 2.825
+    },
+    {
+      "id": "2",
+      "ordenesId": 1,
+      "producto": 10002,
+      "nombre": "Club Sandwhich",
+      "cantidad": 2,
+      "precio": 3.75,
+      "impuesto": 0.975,
+      "total": 8.475
+    }
+  ]
+}
